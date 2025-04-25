@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Riddho Ridwanul Haque</title>
-	<link rel="icon" href="imgs/IMG_0191_3.png">
+	<link rel="icon" href="WebsitePhoto.jpg">
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-82SB56909H"></script>
@@ -30,9 +30,6 @@
 		<ul>
 			<li><a class="file_link" href="#project-list">Projects</a></li>
 			<li><a class="file_link" href="#publication-list">Publications</a></li>
-			<li><a class="file_link" href="#service-list">Service</a></li>
-			<li><a class="file_link" href="#talks-list">Talks</a></li>
-<!--			<li><a class="file_link" href="#quotes-list">Quotes</a></li>-->
 			<li>
 				<a class="file_link paper" href="files/cv_matteo_brucato_web.pdf">Download CV</a>
 			</li>
