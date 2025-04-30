@@ -1,1 +1,1 @@
-Website create using the template from praveenk.io
+Website created with source code from https://www.cs.cornell.edu/~praveenk/

@@ -1,0 +1,469 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,500&display=swap');
+
+html,
+body {
+    background: #f8f8f8;
+    font-family: 'Myriad Pro', 'PT Sans', Helvetica, Arial;
+    color: #444444;
+    line-height: 1.6em;
+    font-size: 15px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+li {
+    font-size: 15px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+h1,
+h2,
+h3,
+h4 {
+    color: #444444;
+    font-weight: 600;
+    margin-bottom: .75em;
+}
+
+h3 {
+    color: #222222;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+p {}
+
+b,
+strong {
+    font-weight: 600;
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+
+
+a.file_link {
+    font-weight: 500;
+    background-color: #F0F0F0;
+    border-color: #E7EFEF;
+    color: #444444;
+    padding: 1px 6px;
+    text-decoration: none;
+    font-size: 95%;
+    border-width: 1pt;
+    border-style: solid;
+    line-height: 2.0em;
+}
+
+body {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+li {
+    font-size: 15px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+h1,
+h2,
+h3,
+h4 {
+    color: #444444;
+    font-weight: 600;
+    margin-bottom: .75em;
+}
+
+h3 {
+    color: #222222;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+p {}
+
+b,
+strong {
+    font-weight: 600;
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+
+
+a.
+}
+
+a.hi_bg {
+    background-color: #AA2062;
+    color: #fcfcfc;
+    padding: 2px 4px;
+    text-decoration: none;
+    font-size: smaller
+}
+
+a.hi_fg {
+    color: #AA2062;
+    padding: 4px 8px;
+    text-decoration: none;
+    font-size: smaller
+}
+
+a.title {
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Myriad Pro', 'Ubuntu', Helvetica, Arial;
+}
+
+a.title:hover {
+    text-decoration: none;
+}
+
+a.news_link.award::before {
+    font-family: "FontAwesome";
+    content: "\f091\00a0";
+}
+
+a.file_link.artifact::before {
+    font-family: "FontAwesome";
+    content: "\f120\00a0\00a0";
+}
+
+a.file_link.blog::before {
+    font-family: "FontAwesome";
+    content: "\f143\00a0\00a0";
+}
+
+a.file_link.code::before {
+    font-family: "FontAwesome";
+    content: "\f09b\00a0\00a0";
+}
+
+a.file_link.ongoing::before {
+    font-family: "FontAwesome";
+    content: "\f110\00a0\00a0";
+}
+
+
+a.file_link.paper::before {
+    font-family: "FontAwesome";
+    content: "\f1c1\00a0\00a0";
+}
+
+a.file_link.poster::before {
+    font-family: "FontAwesome";
+    content: "\f1c5\00a0\00a0";
+}
+
+a.file_link.slides::before {
+    font-family: "FontAwesome";
+    content: "\f24d\00a0\00a0";
+}
+
+a.file_link.talk::before {
+    font-family: "FontAwesome";
+    content: "\f03d\00a0\00a0";
+}
+
+a.file_link.webpage::before {
+    font-family: "FontAwesome";
+    content: "\f08e\00a0\00a0";
+}
+
+a.file_link.award {
+    pointer-events: none;
+    cursor: default;
+    color: #8c1010;
+}
+
+a.file_link.award::before {
+    font-family: "FontAwesome";
+    content: "\f091\00a0\00a0";
+}
+
+a.file_link:hover,
+a.file_link:active {
+    background-color: #FFFFFF;
+    color: #8c1010;
+    border-color: #8c1010;
+}
+
+.triangle {
+    display: inline-block;
+    margin: 0 5px;
+    vertical-align: middle;
+}
+
+.triangle-up {
+    width: 60px;
+    height: 30px;
+    border-bottom: solid 30px rgb(200, 30, 50);
+    border-left: solid 30px transparent;
+    border-right: solid 30px transparent;
+}
+
+.triangle-down {
+    width: 60px;
+    height: 30px;
+    border-top: solid 30px rgb(200, 30, 50);
+    border-left: solid 30px transparent;
+    border-right: solid 30px transparent;
+}
+
+li.paper {
+    padding: 10pt;
+    box-shadow: 1px 1px 10px 0px rgba(96, 96, 96, 0.2);
+}
+
+li.paper:nth-child(odd) {}
+
+li.paper:before {}
+
+.header {
+    background: #ffffff;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.body {
+    background: #ffffff;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.body h3 {
+    text-transform: uppercase;
+    margin-top: 1em;
+}
+
+.authors {
+    color: #444444;
+}
+
+.conf {
+    color: #2c2c2c;
+    font-weight: 600;
+}
+.conf:hover {
+    text-decoration: none;
+}
+
+h2.name {
+    font-family: 'Myriad Pro', 'Source Sans Pro', Helvetica, Arial;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h4.note {
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Myriad Pro', 'Ubuntu', Helvetica, Arial;
+    color: #931010;
+}
+
+ul,
+ol {
+    list-style-position: outside;
+    list-style-type: none;
+    padding: 0px;
+}
+
+li {
+    margin-bottom: 1em;
+}
+
+.tight li {
+    margin-bottom: 0px;
+}
+
+#news a {
+    color: #006699;
+}
+
+small#pubs-toggle {
+    font-size: 70%;
+}
+
+small#pubs-toggle span {
+    background: none;
+    font-size: smaller;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+small#pubs-toggle span:hover {
+    border-bottom: 1px solid grey;
+    cursor: pointer;
+}
+
+small#news-toggle {
+    font-size: 90%;
+}
+
+small#news-toggle span {
+    background: none;
+    font-size: smaller;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+small#news-toggle span:hover {
+    border-bottom: 1px solid grey;
+    cursor: pointer;
+}
+
+#profilepic {
+    /* width: 180px; */
+    /* height: 180px; */
+    width: 100%;
+    height: 180px;
+    background-image: url(../img/praveen.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0;
+    display: inline-block;
+    border-radius: 10%;
+}
+
+#profilepic-m {
+    margin-left: 2px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    width: 150px;
+    height: 150px;
+    background-image: url(../img/praveen.jpg);
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: 0;
+    border-radius: 10%;
+    visibility: collapse;
+    display: none;
+}
+
+.gallery div.image {
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+    display: inline;
+    margin: 5px;
+    padding: 15px;
+    border: 1px solid rgba(239, 239, 239, 0.86);
+    box-shadow: 0 1px 3px rgba(160, 202, 219, 0.24);
+}
+
+.gallery div.image:hover {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+@media (max-width:1300px) {}
+
+@media (max-width:900px) {
+
+    html,
+    body,li {
+        font-size: 12pt;
+    }
+
+    h1 {
+        font-size: 16pt;
+    }
+
+    h3 {
+        margin-top: 1em;
+        font-size: 16pt;
+        margin-bottom: 1em;
+    }
+
+    .stitle {
+        font-size: 16pt;
+    }
+
+    .header div {}
+}
+
+@media screen and (min-width: 1200px) {
+    #profilepic {
+        height: 200px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #profilepic-m {
+        visibility: hidden;
+        display: none;
+    }
+}
+
+@media screen and (max-width: 991.98px) {
+
+    html,body {
+        background: #ffffff;
+    }
+
+    #profilepiccol {
+        visibility: hidden;
+        clear: both;
+        float: left;
+        margin: 10px auto 5px 20px;
+        width: 28%;
+        display: none;
+    }
+
+    #oldnews {
+        visibility: hidden;
+        clear: both;
+        float: left;
+        margin: 10px auto 5px 20px;
+        width: 28%;
+        display: none;
+    }
+
+    #news-toggle {
+        visibility: hidden;
+        display: none;
+    }
+
+    #profilepic-m {
+        visibility: visible;
+        display: inline-block;
+    }
+}
