@@ -1,0 +1,295 @@
+:root {
+    --base00: #2d2d2d;
+    --base01: #393939;
+    --base02: #515151;
+    --base03: #747369;
+    --base04: #a09f93;
+    --base05: #d3d0c8;
+    --base06: #e8e6df;
+    --base07: #f2f0ec;
+    --base08: #f2777a;
+    --base09: #f99157;
+    --base0a: #ffcc66;
+    --base0b: #99cc99;
+    --base0c: #66cccc;
+    --base0d: #6699cc;
+    --base0e: #cc99cc;
+    --base0f: #d27b53
+}
+
+#content a,.nav-link {
+    color: var(--base0d);
+    text-decoration: none
+}
+
+#content a *,.nav-link * {
+    color: #f2777a
+}
+
+#content a:hover,.nav-link:hover {
+    color: #f2777a;
+    text-decoration: underline
+}
+
+#footer a {
+    color: #222;
+    text-decoration: none
+}
+
+#footer a * {
+    color: #222
+}
+
+#footer a:hover {
+    color: #222;
+    text-decoration: underline
+}
+
+#content table td,#content table th {
+    border: 1px solid #ccc;
+    padding: 6px 12px;
+    text-align: left
+}
+
+table tr th:empty {
+    display: none
+}
+
+* {
+    color: #222;
+    font-family: IBM Plex Sans;
+    line-height: 1.2
+}
+
+.base00 {
+    color: var(--base00)
+}
+
+.base01 {
+    color: var(--base01)
+}
+
+.base02 {
+    color: var(--base02)
+}
+
+.base03 {
+    color: var(--base03)
+}
+
+.base04 {
+    color: var(--base04)
+}
+
+.base05 {
+    color: var(--base05)
+}
+
+.base06 {
+    color: var(--base06)
+}
+
+.base07 {
+    color: var(--base07)
+}
+
+.base08 {
+    color: var(--base08)
+}
+
+.base09 {
+    color: var(--base09)
+}
+
+.base0a {
+    color: var(--base0a)
+}
+
+.base0b {
+    color: var(--base0b)
+}
+
+.base0c {
+    color: var(--base0c)
+}
+
+.base0d {
+    color: var(--base0d)
+}
+
+.base0e {
+    color: var(--base0e)
+}
+
+.base0f {
+    color: var(--base0f)
+}
+
+.container {
+    max-width: 750px
+}
+
+.navbar-brand {
+    color: var(--base00);
+    font-size: medium;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 2rem
+}
+
+.navbar-brand * {
+    color: var(--base0c)
+}
+
+.navbar-brand:hover {
+    color: #f2777a;
+    text-decoration: none
+}
+
+#content p {
+    margin-bottom: .6rem
+}
+
+#content h1,#content h2,#content h3,#content h4,#content h5,#content h6 {
+    font-size: medium;
+    font-weight: 500;
+    margin: 1rem 0 .6rem
+}
+
+#content h1 {
+    font-size: 1.8rem
+}
+
+#content h2 {
+    font-size: 1.6rem
+}
+
+#content h3 {
+    font-size: 1.4rem
+}
+
+#content h4 {
+    font-size: 1.2rem
+}
+
+#content h5 {
+    font-size: 1rem
+}
+
+#content h1 {
+    color: var(--base0d)
+}
+
+#content h2 {
+    color: var(--base0b)
+}
+
+#content h3 {
+    color: var(--base09)
+}
+
+#content h4 {
+    color: var(--base08)
+}
+
+#content h5 {
+    color: var(--base0e)
+}
+
+#content h6 {
+    color: var(--base03)
+}
+
+#content img {
+    display: block;
+    margin: 1rem auto;
+    max-width: 100%
+}
+
+#content .avatar>img {
+    border-radius: 50%;
+    float: right;
+    margin: -8px 0 0 16px;
+    height: 100px;
+    width: 100px
+}
+
+#content ol {
+    counter-reset: list;
+    list-style: none;
+    padding-left: 2rem
+}
+
+#content ol>li {
+    display: table-row
+}
+
+#content ol>li:before {
+    content: "[" counter(list,decimal)"] ";
+    counter-increment: list;
+    display: table-cell;
+    text-align: right;
+    padding-right: .5em
+}
+
+#content .container>ol,#content .footnotes>ol {
+    padding-left: 0
+}
+
+#content ul {
+    list-style: inside;
+    padding-left: 2rem
+}
+
+#content ul>li {
+    list-style-position: outside;
+    margin-left: 1em
+}
+
+#content .container>ul,#content .footnotes>ul {
+    padding-left: 0
+}
+
+#content table {
+    margin: 1rem auto;
+    width: 100%
+}
+
+#content table th {
+    font-weight: 700
+}
+
+#content table tr:nth-child(2n) {
+    background-color: #f8f8f8
+}
+
+#content blockquote {
+    border-left: 4px solid;
+    font-style: italic;
+    margin: 1rem 0;
+    padding: 8px
+}
+
+#content code {
+    color: #222;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 10%;
+    padding: 0 4px
+}
+
+#content .author {
+    font-style: italic
+}
+
+#content pre code {
+    all: unset
+}
+
+#content .highlight {
+    margin: 1rem auto
+}
+
+#content .highlight>pre {
+    padding: 8px
+}
